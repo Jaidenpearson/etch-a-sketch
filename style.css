@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left {
+    display: inline-block;
+}
+
+.right {
+    float: right;
+
+}
+
+#grid {
+   display: grid;
+   width: 600px;
+   height: 600px;
+   border: solid black;
+   border-radius: 5px;
+}
